@@ -24,16 +24,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   A software developer with a focus on mobile app development and a passion for creating innovative, user-friendly technology. This portfolio showcases the education, professional experiences, and the projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "irmahs" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: irma-hs
-github_username:  irmahs
+author:
+  name: Irma Houver Sing
+  email: "irma.houversing@gmail.com"
+minima:
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/irmahs"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/irma-hs/"
 
 # Build settings
-theme: minima
+remote_theme: "jekyll/minima@1e8a445"
 plugins:
-  - jekyll-seo-tag
+  - jekyll-remote-theme 
   - jekyll-feed
-  - jekyll-last-modified-at
-  - jekyll-paginate
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
