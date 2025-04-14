@@ -33,25 +33,6 @@ I also enjoy traveling to different places and discovering new cultures.
 
 ---
 
-### 💬 Send a Message
-
-If you prefer to drop a quick message, fill out the form below, and I’ll get back to you as soon as possible!
-
-<form action="https://formspree.io/f/{form_id}" method="POST">
-  <label for="name">Your Name:</label>
-  <input type="text" id="name" name="name" required>
-  
-  <label for="email">Your Email:</label>
-  <input type="email" id="email" name="email" required>
-  
-  <label for="message">Your Message:</label>
-  <textarea id="message" name="message" rows="4" required></textarea>
-  
-  <button type="submit">Send Message</button>
-</form>
-
----
-
 ### 🌟 Let’s Work Together!
 
 I’m always open to exciting new projects and collaborations. If you think we can create something great, reach out to me, and let’s make it happen!
