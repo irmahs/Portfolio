@@ -4,7 +4,7 @@
 
 layout: home
 ---
-# Hello World! 👋 I'm Irma
+## Hello World! 👋 I'm Irma
 
 A web and mobile app developer with a passion for building intuitive, user-friendly applications. Welcome to my portfolio! Here, you can check out my projects, experience, and everything I'm working on.
 
