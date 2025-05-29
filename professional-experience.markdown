@@ -30,3 +30,7 @@ permalink: /professional-experience/
 - Collaborated with others to build a **vegan fitness recipe application** using **Google Flutter**.
 - Designed and developed a website using **HTML, CSS**, and **JavaScript**.
 - Gained **international experience**, building cross-cultural skills and exposure to different software engineering practices.
+
+---
+
+### Your future colleague, Irma HOUVER SING

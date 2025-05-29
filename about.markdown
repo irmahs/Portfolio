@@ -10,80 +10,73 @@ I like to **create things and see them come to life**. Learning new technology t
 
 ---
 
-### 👩‍💻 Skills & Technologies
+### 🎯 Goals for the Future
 
-My experience is always growing — here's what I'm working with:
+I doing what **I love**, proud of what **I create**, and surrounded by **amazing people**.  
+Someday, I’d love to win an award for **Best Website** — it's a long shot, but hey, dreams fuel the grind 💫
 
-#### 🖼️ Front-End
-- HTML, CSS, JavaScript, TypeScript
+Take a leap and **bet on me**. Let me be part of the future, **your** future.  
+I’m part of the **newer generation**, driven by our **hunger** to learn.  
+The past generations **walked** so we can **run**.  
 
-#### 🧩 Front-End Frameworks
-- React Native, Angular, Ionic, Compose, Electron
+I am extremely **flexible**, coming from my background, being culturally Cambodian and French, I have a big capacity to **adapt**.  
+I’m also ready to make any **sacrifices** to push through any **obstacles**, to **evolve** and create a better future with you.  
 
-#### 🔧 Back-End
-- Java
-
-#### 🔌 Back-End Frameworks
-- Spring Boot
-
-#### 🧰 Tools & Other
-- Jira, Confluence, Figma, Canva, Microsoft Suite  
-- Graphic Design, Video Editing, Agile, Scrum, Kanban
-
-#### 📚 Currently Learning
-- Python, Flutter, Ruby, SCSS, Jekyll
+Who knows, I might be your **new favourite colleague**!
 
 ---
 
-### 💡 Development Philosophy
+### 🌟 My values
 
-> _"Hard now, easy later."_  
+* **Commitment to diversity and inclusion:** Passionate about increasing visibility and representation of women and APAC women in tech, aiming to contribute to a more diverse and inclusive ecosystem.
 
-I believe in writing **clean**, **scalable**, **maintainable**, **reusable**, and **accessible** code. I want to build things that are not just beautiful, but meaningful and sustainable.
+* **Responsibility and leadership:** Aspires to be a role model and contribute positively to the tech community, especially for underrepresented groups.
+
+* **Adaptability and open-mindedness:** Developed through a multicultural upbringing and international experience, thriving in diverse teams and embracing different perspectives.
+
+* **Collaboration and teamwork:** Experience working closely with cross-functional and international teams, valuing effective communication and shared goals.
+
+* **User-centered design and innovation:** Dedicated to delivering meaningful, scalable, and accessible digital solutions that make a positive impact on users.
+
+* **Professional growth and lifelong learning:** Embraces new challenges, open to relocation and travel, driven by passion for innovation and continuous improvement.
 
 ---
 
 ### 🎮 How It All Started
 
-My journey began with a love for **gaming**, **understanding systems**, and **being creative**.  
+My journey began with a love for **art**, **creativity**, and **understanding systems**.
+It all started by editing **Tumblr** and **DeviantArt** themes with HTML & CSS—bringing my visions to life online.
+
+Then I discovered video games, which sparked a deep interest in **game development**.
+Over time, that passion shifted toward creating applications—whether web or mobile—that make an impact on users, whether big or small.
 That’s what led me to front-end development.
 
-I wasn't the best at drawing, but I realized I could still create the **worlds and visions in my head** through code — and that felt amazing.
+I wasn’t the best at drawing, but I realized I could still create the **worlds and visions in my head** through code — and that felt amazing.
 
-It all began by editing **Tumblr** and **DeviantArt** themes with HTML & CSS.  
-From the **art community** to the **dev community**... let’s gooo 🚀
+From the **art community** to the **dev community**...
 
 ---
 
 ### 🌈 Interests & Hobbies
 
-I’m a little nerdy, a little artsy, and a lot curious.
+Even after joining the dev community, my love for art never stopped. My creativity and outside-the-box thinking might be unconventional for others, but it only fueled my innovative mindset — which I apply in all my projects.
 
-- 🎮 Tactical, team-based games (every match is a new adventure!)
-- 🎙️ Voice acting and character work
-- 🎨 Creating relatable content, logos, and fun graphics
-- 🐱 Chillin’ with cats
+- 🎮 Tactical, team-based games  
+- 🎙️ Voice acting and character work  
+- 🎨 Creating relatable content, logos, and fun graphics  
+- 🐱 Chillin’ with cats  
+- 🐉 Role playing with Dungeons & Dragons style adventures  
+- 🧶 Exploring different arts and crafts like crocheting, dressmaking, and watercolor painting  
+- 📚 Reading and thrifting for hidden treasures  
+- 💄 Artistic makeup experiments and transformations  
+- 💻 Learning about new technology and creating small, fun applications to simplify everyday life  
+- 🎯 Coaching an esports team to sharpen skills and build teamwork  
 
 #### ✨ Creative Inspiration
-- Superheroes
-- Fantasy
-- Nature
-- The supernatural
-- Stars
-- Myths
-- Fairytales
-- Fables
-- Astrology
-- Legends
-
----
-
-### 🎯 Goals for the Future
-
-My goal is simple: **Happiness.**
-
-I want to work at my **dream job**, doing what I love, proud of what I create, and surrounded by **amazing people**.  
-Someday, I’d love to win an award for **Best Website** — it's a long shot, but hey, dreams fuel the grind 💫
+- Fairytales, myths, legends
+- Nature and origami
+- Superheroes and fairies
+- Avatar the Last Airbender
 
 ---
 
@@ -97,4 +90,4 @@ Let’s connect ✨
 
 ---
 
-### Let's Make Something Amazing Together!
+### Your future colleague, Irma HOUVER SING

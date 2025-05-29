@@ -85,3 +85,5 @@ A logistics and stock management app for a library (containing movies and books)
 [Link](https://github.com/Harsisis/HOUVERSING_CADET_CPOA_TD_2020)
 
 ---
+
+### Your future colleague, Irma HOUVER SING
