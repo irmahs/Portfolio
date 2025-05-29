@@ -63,7 +63,7 @@ I believe in writing **clean**, **scalable**, **maintainable**, **reusable**, an
 
 ---
 
-#### 📚 Possible Skill conversion 
+#### 📚 Possible Skill Transfer
 * C# + .NET
 * Cobol
 * Python
