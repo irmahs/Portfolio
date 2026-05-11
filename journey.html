@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Parcours — Irma Houver Sing</title>
+  <title>Journey — Irma Houver Sing</title>
+  <script>if(localStorage.getItem('theme')==='dark')document.documentElement.classList.add('dark');</script>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
 </head>
@@ -13,83 +14,106 @@
       <div class="notch"></div>
       <div class="screen">
 
-        <div class="status-bar">
-          <span>9:41</span>
-          <span>irma.dev</span>
-          <span>🌸</span>
-        </div>
+        <div class="status-bar"></div>
 
         <div class="content-area">
           <div class="page active">
-            <div class="section-title">Mon parcours</div>
+            <div class="section-title" data-i18n="journey.title">My Journey</div>
 
-            <div class="timeline-item">
-              <div class="tl-dot-col"><div class="tl-dot"></div><div class="tl-line"></div></div>
-              <div class="tl-content">
-                <div class="tl-company">EFOR · Euro Informations</div>
-                <div class="tl-role">Développeuse fullstack — consultante</div>
-                <div class="tl-date">Strasbourg · 2024</div>
-                <div class="tl-desc">Mission en contexte bancaire, intégration et développement de fonctionnalités métier.</div>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="tl-dot-col"><div class="tl-dot"></div><div class="tl-line"></div></div>
-              <div class="tl-content">
-                <div class="tl-company">Crédit Mutuel</div>
-                <div class="tl-role">Développeuse fullstack</div>
-                <div class="tl-date">Strasbourg</div>
-                <div class="tl-desc">Diagnostic de chiffrement de fichiers assisté par IA. Java Spring Boot + React.</div>
-              </div>
-            </div>
+            <div class="journey-group-label" data-i18n="journey.experience">Experience</div>
 
             <div class="timeline-item">
               <div class="tl-dot-col"><div class="tl-dot"></div><div class="tl-line"></div></div>
               <div class="tl-content">
                 <div class="tl-company">La Banque Postale</div>
-                <div class="tl-role">Alternante développeuse</div>
-                <div class="tl-date">Alternance · Master MIAGE</div>
-                <div class="tl-desc">Feature virement — collaboration agile avec PM. Livraison end-to-end.</div>
+                <div class="tl-role" data-i18n="journey.lbp.role">Mobile App Developer</div>
+                <div class="tl-date" data-i18n="journey.lbp.date">Sep 2022 – Oct 2024 · Gradignan, France</div>
+                <div class="tl-desc" data-i18n="journey.lbp.desc">Developed and maintained a mobile banking app using React Native. Agile team, accessibility focus, Detox &amp; manual testing.</div>
               </div>
             </div>
 
             <div class="timeline-item">
-              <div class="tl-dot-col">
-                <div class="tl-dot" style="background:#d4b8f0; border-color:#ece0fa;"></div>
-              </div>
-              <div class="tl-content" style="background:#f8f4fe; border-color:#ece0fa;">
-                <div class="tl-company" style="color:#6040a8;">Master MIAGE</div>
-                <div class="tl-role" style="color:#9070c0;">Ingénierie des systèmes d'information</div>
-                <div class="tl-date" style="color:#c0a8d8;">Bilingue FR/EN</div>
+              <div class="tl-dot-col"><div class="tl-dot"></div><div class="tl-line"></div></div>
+              <div class="tl-content">
+                <div class="tl-company">Sogeti</div>
+                <div class="tl-role" data-i18n="journey.sogeti.role">Agile Tester</div>
+                <div class="tl-date" data-i18n="journey.sogeti.date">Apr 2022 – Jun 2022 · Pessac, France</div>
+                <div class="tl-desc" data-i18n="journey.sogeti.desc">Automated test scripts with Selenium, Appium &amp; TestNG. Tracked defects using Jira and Confluence.</div>
               </div>
             </div>
+
+            <div class="timeline-item">
+              <div class="tl-dot-col"><div class="tl-dot"></div></div>
+              <div class="tl-content">
+                <div class="tl-company">VIA University College</div>
+                <div class="tl-role" data-i18n="journey.erasmus.role">Exchange Student — Erasmus+</div>
+                <div class="tl-date" data-i18n="journey.erasmus.date">Feb 2021 – Jun 2021 · Horsens, Denmark</div>
+                <div class="tl-desc" data-i18n="journey.erasmus.desc">Built a solo Android travel app and a team Flutter fitness app. All coursework in English.</div>
+              </div>
+            </div>
+
+            <div class="journey-group-label" data-i18n="journey.education">Education</div>
+
+            <div class="timeline-item">
+              <div class="tl-dot-col"><div class="tl-dot tl-dot-edu"></div><div class="tl-line"></div></div>
+              <div class="tl-content tl-content-edu">
+                <div class="tl-company">Université de Bordeaux</div>
+                <div class="tl-role" data-i18n="journey.master.sub">Master MIAGE — Computer Science &amp; Business Management</div>
+                <div class="tl-date" data-i18n="journey.master.date">2022 – 2024 · Université de Bordeaux</div>
+                <div class="tl-desc" data-i18n="journey.master.desc">Advanced software architecture, AI, cybersecurity, agile project management. Work-study at La Banque Postale.</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="tl-dot-col"><div class="tl-dot tl-dot-edu"></div><div class="tl-line"></div></div>
+              <div class="tl-content tl-content-edu">
+                <div class="tl-company">Université de Bordeaux</div>
+                <div class="tl-role" data-i18n="journey.bachelor.sub">Bachelor MIAGE</div>
+                <div class="tl-date" data-i18n="journey.bachelor.date">2021 – 2022 · Université de Bordeaux</div>
+                <div class="tl-desc" data-i18n="journey.bachelor.desc">Full-stack development, databases, business analysis. Internship at Sogeti.</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="tl-dot-col"><div class="tl-dot tl-dot-edu"></div><div class="tl-line"></div></div>
+              <div class="tl-content tl-content-edu">
+                <div class="tl-company">Université de Lorraine, Metz</div>
+                <div class="tl-role" data-i18n="journey.dut.sub">DUT in Computer Science</div>
+                <div class="tl-date" data-i18n="journey.dut.date">2019 – 2021 · Université de Lorraine, Metz</div>
+                <div class="tl-desc" data-i18n="journey.dut.desc">Core CS fundamentals, web &amp; mobile dev, networks, Erasmus+ semester in Denmark.</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="tl-dot-col"><div class="tl-dot tl-dot-edu"></div><div class="tl-line"></div></div>
+              <div class="tl-content tl-content-edu">
+                <div class="tl-company">Lycée Jean XXIII, Metz</div>
+                <div class="tl-role" data-i18n="journey.bac.sub">Baccalauréat Scientifique (S)</div>
+                <div class="tl-date" data-i18n="journey.bac.date">2013 – 2019 · Lycée Jean XXIII, Metz</div>
+                <div class="tl-desc" data-i18n="journey.bac.desc">Mathematics specialization, digital &amp; computer science option.</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="tl-dot-col"><div class="tl-dot tl-dot-edu"></div></div>
+              <div class="tl-content tl-content-edu">
+                <div class="tl-company">NISC, Phnom Penh, Cambodia</div>
+                <div class="tl-role" data-i18n="journey.nisc.sub">Primary &amp; Secondary Education — IB PYP &amp; MYP</div>
+                <div class="tl-date" data-i18n="journey.nisc.date">2003 – 2013 · NISC, Phnom Penh, Cambodia</div>
+                <div class="tl-desc" data-i18n="journey.nisc.desc">International Baccalaureate programme. Volleyball, football, basketball, arts and dance clubs.</div>
+              </div>
+            </div>
+
           </div>
         </div>
 
-        <div class="bottom-nav">
-          <a href="index.html" class="nav-btn">
-            <i class="ti ti-home nav-icon"></i>
-            <span class="nav-label">Accueil</span>
-          </a>
-          <a href="parcours.html" class="nav-btn active">
-            <i class="ti ti-timeline nav-icon"></i>
-            <span class="nav-label">Parcours</span>
-          </a>
-          <a href="skills.html" class="nav-btn">
-            <i class="ti ti-sparkles nav-icon"></i>
-            <span class="nav-label">Skills</span>
-          </a>
-          <a href="projets.html" class="nav-btn">
-            <i class="ti ti-code nav-icon"></i>
-            <span class="nav-label">Projets</span>
-          </a>
-        </div>
-
+        <div class="bottom-nav"></div>
         <div class="home-indicator"><div class="home-pill"></div></div>
 
       </div>
     </div>
   </div>
+  <script src="js/layout.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

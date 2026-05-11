@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projets — Irma Houver Sing</title>
+  <title>Projects — Irma Houver Sing</title>
+  <script>if(localStorage.getItem('theme')==='dark')document.documentElement.classList.add('dark');</script>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
 </head>
@@ -13,19 +14,15 @@
       <div class="notch"></div>
       <div class="screen">
 
-        <div class="status-bar">
-          <span>9:41</span>
-          <span>irma.dev</span>
-          <span>🌸</span>
-        </div>
+        <div class="status-bar"></div>
 
         <div class="content-area">
           <div class="page active">
-            <div class="section-title">Projets</div>
+            <div class="section-title" data-i18n="projects.title">Projects</div>
 
             <div class="project-card">
-              <div class="project-title">Portfolio mobile ✨</div>
-              <div class="project-desc">Ce portfolio — conçu comme une app mobile, déployé sur GitHub Pages.</div>
+              <div class="project-title">Portfolio (2026)</div>
+              <div class="project-desc">Webpage with updated content and design, built while learning Claude Code integration.</div>
               <div class="project-stack">
                 <span class="stack-badge">HTML</span>
                 <span class="stack-badge">CSS</span>
@@ -34,59 +31,137 @@
             </div>
 
             <div class="project-card">
-              <div class="project-title">Feature virement — La Banque Postale</div>
-              <div class="project-desc">Développement end-to-end d'un module de virement. Collaboration agile avec PM et UX.</div>
+              <div class="project-title">Portfolio (2025)</div>
+              <div class="project-desc">An updated personal portfolio built using Jekyll and hosted on GitHub Pages.</div>
               <div class="project-stack">
-                <span class="stack-badge">React</span>
+                <span class="stack-badge">Jekyll</span>
+                <span class="stack-badge">GitHub Pages</span>
+              </div>
+              <a href="https://github.com/irmahs/Portfolio" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">Super Tic Tac Toe (2025)</div>
+              <div class="project-desc">A mini desktop game built with Electron — two players, alternating turns on a single desktop.</div>
+              <div class="project-stack">
+                <span class="stack-badge">Electron</span>
+              </div>
+              <a href="https://github.com/irmahs/Super-Tic-Tac-Toe" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">LoueTaVoiture (2024)</div>
+              <div class="project-desc">Car reservation website with a Spring Boot back-end and Angular front-end.</div>
+              <div class="project-stack">
                 <span class="stack-badge">Java</span>
                 <span class="stack-badge">Spring Boot</span>
+                <span class="stack-badge">Angular</span>
+                <span class="stack-badge">Swagger</span>
+              </div>
+              <a href="https://github.com/LoueTaVoiture/louetavoiture-front" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">New La Banque Postale App (2023–2024)</div>
+              <div class="project-desc">Contributions to La Banque Postale's mobile banking application using React Native for cross-platform development.</div>
+              <div class="project-stack">
+                <span class="stack-badge">React Native</span>
+              </div>
+              <a href="https://www.labanquepostale.fr/particulier/comptes-et-cartes/espaces-clients/application-mobile.html" class="project-link" target="_blank" rel="noopener">Live ↗</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">La Banque Postale App (2022–2023)</div>
+              <div class="project-desc">Front-end contributions to a mobile banking application using Angular.</div>
+              <div class="project-stack">
+                <span class="stack-badge">Angular</span>
               </div>
             </div>
 
             <div class="project-card">
-              <div class="project-title">Diagnostic IA — Crédit Mutuel</div>
-              <div class="project-desc">Outil de diagnostic de chiffrement de fichiers avec assistance IA. Contexte bancaire sensible.</div>
+              <div class="project-title">Mini Android Projects (2023)</div>
+              <div class="project-desc">Small Android games and apps built to learn Kotlin and Android Compose.</div>
               <div class="project-stack">
-                <span class="stack-badge">Spring Boot</span>
-                <span class="stack-badge">React</span>
-                <span class="wip-badge">IA intégrée</span>
+                <span class="stack-badge">Kotlin</span>
+                <span class="stack-badge">Android Compose</span>
+              </div>
+              <div style="display:flex;gap:6px;margin-top:6px;">
+                <a href="https://github.com/irmahs/MontyHall" class="project-link" target="_blank" rel="noopener">MontyHall ↗</a>
+                <a href="https://github.com/irmahs/Library" class="project-link" target="_blank" rel="noopener">Library ↗</a>
               </div>
             </div>
 
-            <div class="project-card" style="border-style: dashed; opacity: 0.7;">
-              <div class="project-title">Projet perso à venir 🌱</div>
-              <div class="project-desc">Un projet fullstack en cours de construction — watch this space.</div>
+            <div class="project-card">
+              <div class="project-title">Data Crunching (2022)</div>
+              <div class="project-desc">Experience using data analysis and visualization tools to explore datasets.</div>
               <div class="project-stack">
-                <span class="wip-badge">En cours</span>
+                <span class="stack-badge">QGIS</span>
+                <span class="stack-badge">PowerBI</span>
+                <span class="stack-badge">Tableau</span>
               </div>
             </div>
+
+            <div class="project-card">
+              <div class="project-title">GreenHeart (2021)</div>
+              <div class="project-desc">Vegan meal app focused on weight goals — proposed meal plans and tracked dietary progress.</div>
+              <div class="project-stack">
+                <span class="stack-badge">Flutter</span>
+              </div>
+              <a href="https://github.com/msd-11/green-heart" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">TravelBuddy (2021)</div>
+              <div class="project-desc">Android digital wallet for travel documents — trip organizer, to-do lists, and document storage.</div>
+              <div class="project-stack">
+                <span class="stack-badge">Android</span>
+                <span class="stack-badge">Java</span>
+              </div>
+              <a href="https://github.com/irmahs/TravelBuddy" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">ColourIT (2021)</div>
+              <div class="project-desc">Responsive webpage with a clean design using HTML, JS, and Bootstrap.</div>
+              <div class="project-stack">
+                <span class="stack-badge">HTML</span>
+                <span class="stack-badge">JavaScript</span>
+                <span class="stack-badge">Bootstrap</span>
+              </div>
+              <a href="https://github.com/irmahs/Colour_IT" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">SkillXT (2021)</div>
+              <div class="project-desc">Skill-matching app — connects people who want to learn with people who can teach.</div>
+              <div class="project-stack">
+                <span class="stack-badge">Java</span>
+                <span class="stack-badge">Spring Boot</span>
+                <span class="stack-badge">Hibernate</span>
+              </div>
+              <a href="https://github.com/irmahs/SkillXT" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+              <div class="project-title">Library / Shop (2020)</div>
+              <div class="project-desc">Logistics and stock management app for a library and a sweater shop, built with JavaFX.</div>
+              <div class="project-stack">
+                <span class="stack-badge">Java</span>
+                <span class="stack-badge">JavaFX</span>
+              </div>
+              <a href="https://github.com/Harsisis/HOUVERSING_CADET_CPOA_TD_2020" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+
           </div>
         </div>
 
-        <div class="bottom-nav">
-          <a href="index.html" class="nav-btn">
-            <i class="ti ti-home nav-icon"></i>
-            <span class="nav-label">Accueil</span>
-          </a>
-          <a href="parcours.html" class="nav-btn">
-            <i class="ti ti-timeline nav-icon"></i>
-            <span class="nav-label">Parcours</span>
-          </a>
-          <a href="skills.html" class="nav-btn">
-            <i class="ti ti-sparkles nav-icon"></i>
-            <span class="nav-label">Skills</span>
-          </a>
-          <a href="projets.html" class="nav-btn active">
-            <i class="ti ti-code nav-icon"></i>
-            <span class="nav-label">Projets</span>
-          </a>
-        </div>
-
+        <div class="bottom-nav"></div>
         <div class="home-indicator"><div class="home-pill"></div></div>
 
       </div>
     </div>
   </div>
+  <script src="js/layout.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

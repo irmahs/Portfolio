@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skills — Irma Houver Sing</title>
+  <script>if(localStorage.getItem('theme')==='dark')document.documentElement.classList.add('dark');</script>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
 </head>
@@ -13,15 +14,11 @@
       <div class="notch"></div>
       <div class="screen">
 
-        <div class="status-bar">
-          <span>9:41</span>
-          <span>irma.dev</span>
-          <span>🌸</span>
-        </div>
+        <div class="status-bar"></div>
 
         <div class="content-area">
           <div class="page active">
-            <div class="section-title">Compétences</div>
+            <div class="section-title" data-i18n="skills.title">Skills</div>
 
             <div class="skill-group">
               <div class="skill-group-label">Frontend</div>
@@ -44,17 +41,17 @@
             </div>
 
             <div class="skill-group">
-              <div class="skill-group-label">Outils &amp; méthodes</div>
+              <div class="skill-group-label" data-i18n="skills.tools">Tools &amp; Methods</div>
               <div class="skill-chips">
                 <span class="skill-chip chip-b">Git / GitHub</span>
                 <span class="skill-chip chip-d">Agile / Scrum</span>
                 <span class="skill-chip chip-a">Figma</span>
-                <span class="skill-chip chip-c">AWS (en cours)</span>
+                <span class="skill-chip chip-c" data-i18n="skills.aws">AWS (in progress)</span>
               </div>
             </div>
 
             <div style="margin-top:14px;">
-              <div class="skill-group-label">Niveau par domaine</div>
+              <div class="skill-group-label" data-i18n="skills.levels">Proficiency</div>
               <div class="skill-bar-row">
                 <div class="skill-bar-label"><span>React / TS</span><span>90%</span></div>
                 <div class="skill-bar-track"><div class="skill-bar-fill" data-w="90"></div></div>
@@ -75,30 +72,14 @@
           </div>
         </div>
 
-        <div class="bottom-nav">
-          <a href="index.html" class="nav-btn">
-            <i class="ti ti-home nav-icon"></i>
-            <span class="nav-label">Accueil</span>
-          </a>
-          <a href="parcours.html" class="nav-btn">
-            <i class="ti ti-timeline nav-icon"></i>
-            <span class="nav-label">Parcours</span>
-          </a>
-          <a href="skills.html" class="nav-btn active">
-            <i class="ti ti-sparkles nav-icon"></i>
-            <span class="nav-label">Skills</span>
-          </a>
-          <a href="projets.html" class="nav-btn">
-            <i class="ti ti-code nav-icon"></i>
-            <span class="nav-label">Projets</span>
-          </a>
-        </div>
+        <div class="bottom-nav"></div>
 
         <div class="home-indicator"><div class="home-pill"></div></div>
 
       </div>
     </div>
   </div>
+  <script src="js/layout.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
