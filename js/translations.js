@@ -20,45 +20,48 @@ const translations = {
     'journey.education':  'Education',
 
     'journey.efor.role':  'Consultant — Analyst Developer',
-    'journey.efor.date':  'Aug 2025 – Apr 2026 · France',
-    'journey.efor.desc':  'Consultant at EFOR, for their client at Euro Informations (Crédit Mutuel). Analyst developer on health applications at EID.',
+    'journey.efor.date':  'Aug 2025 – Apr 2026 · Strasbourg, France',
+    'journey.efor.desc':  'Developed and maintained C modules and C# Devbooster web applications for health professionals. QA activities including writing and executing test cases.',
 
-    'journey.lbp.role':   'Mobile App Developer',
-    'journey.lbp.date':   'Sep 2022 – Oct 2024 · Gradignan, France',
-    'journey.lbp.desc':   'Developed and maintained a mobile banking app using React Native. Agile team, accessibility focus, Detox & manual testing.',
-    
+    'journey.lbp.role':   'Concept Developer',
+    'journey.lbp.date':   'Sep 2022 – Sep 2024 · Gradignan, France',
+    'journey.lbp.desc':   'Developed and maintained La Banque Postale\'s mobile app (TypeScript, React Native) for over 10 million clients. Agile Scrum, RGAA accessibility standards.',
+
     'journey.sogeti.role': 'Agile Tester',
     'journey.sogeti.date': 'Apr 2022 – Jun 2022 · Pessac, France',
-    'journey.sogeti.desc': 'Automated test scripts with Selenium, Appium & TestNG. Tracked defects using Jira and Confluence.',
-    
+    'journey.sogeti.desc': 'Automated test scripts with Selenium, Appium and TestNG. Test plans and suites based on business requirements. Jira and Confluence.',
+
     'journey.erasmus.role': 'Exchange Student — Erasmus+',
     'journey.erasmus.date': 'Feb 2021 – Jun 2021 · Horsens, Denmark',
-    'journey.erasmus.desc': 'Exhange program at University of Horsens with courses in English.',
+    'journey.erasmus.desc': 'Exchange program at University of Horsens with courses in English.',
 
-    'journey.master.sub':  'Master MIAGE — Computer Science & Business Management',
+    'journey.master.sub':  'Master MIAGE — Computer Science and Business Management',
     'journey.master.date': '2022 – 2024 · Université de Bordeaux',
-    'journey.master.desc': 'Advanced software architecture, AI, cybersecurity, agile project management. Work-study at La Banque Postale.',
-    
+    'journey.master.desc': 'Multidisciplinary training combining advanced computer science with business management. Junior MIAGE Bordeaux and MIAGE Bordeaux Association.',
+
     'journey.bachelor.sub':  'Bachelor MIAGE',
     'journey.bachelor.date': '2021 – 2022 · Université de Bordeaux',
     'journey.bachelor.desc': 'Full-stack development, databases, business analysis. Internship at Sogeti.',
-    
+
     'journey.dut.sub':  'DUT in Computer Science',
     'journey.dut.date': '2019 – 2021 · Université de Lorraine, Metz',
-    'journey.dut.desc': 'Core CS fundamentals, web & mobile dev, networks, Erasmus+ semester in Denmark.',
-    
+    'journey.dut.desc': 'Foundations of software development, systems, networks, and databases. Erasmus IT exchange at the University of Horsens, Denmark.',
+
     'journey.bac.sub':  'Baccalauréat Scientifique (S)',
     'journey.bac.date': '2013 – 2019 · Lycée Jean XXIII, Metz',
-    'journey.bac.desc': 'Sciences specialization with biology option.',
-    
-    'journey.nisc.sub':  'Primary & Secondary Education — IB PYP & MYP',
-    'journey.nisc.date': '2003 – 2013 · NISC, Phnom Penh, Cambodia',
-    'journey.nisc.desc': 'International Baccalaureate programme. Sports and arts clubs.',
+    'journey.bac.desc': 'Baccalauréat scientifique with life sciences option and mathematics specialization.',
 
-    'skills.title':    'Skills',
-    'skills.tools':    'Tools & Methods',
-    'skills.levels':   'Proficiency',
-    'skills.aws':      'AWS (in progress)',
+    'journey.nisc.sub':  'Primary and Secondary Education — IB PYP and MYP',
+    'journey.nisc.date': '2003 – 2013 · NISC, Phnom Penh, Cambodia',
+    'journey.nisc.desc': 'International programme following IB PYP and MYP. Sports and arts clubs.',
+
+    'skills.title':     'Skills',
+    'skills.frontend':  'Front-End',
+    'skills.backend':   'Back-End',
+    'skills.tools':     'Tools and Methods',
+    'skills.databases': 'Databases',
+    'skills.ai':        'AI-Augmented Development',
+    'skills.levels':    'Proficiency',
 
     'projects.title': 'Projects',
 
@@ -70,7 +73,7 @@ const translations = {
     'about.goals2': 'I\'m part of the <strong>newer generation</strong>, driven by hunger to learn. Extremely <strong>flexible</strong> and ready to <strong>adapt</strong> — who knows, I might be your <strong>new favourite colleague</strong>!',
 
     'about.section.values':      '🌟 Values',
-    'about.value1': '<strong>Diversity &amp; inclusion</strong> — Passionate about visibility of women and APAC women in tech.',
+    'about.value1': '<strong>Diversity and inclusion</strong> — Passionate about visibility of women and APAC women in tech.',
     'about.value2': '<strong>Responsibility</strong> — Aspires to be a role model for underrepresented groups.',
     'about.value3': '<strong>Adaptability</strong> — Multicultural upbringing, thrives in diverse teams.',
     'about.value4': '<strong>Collaboration</strong> — Values cross-functional teamwork and shared goals.',
@@ -81,27 +84,26 @@ const translations = {
     'about.story1': 'It started with editing <strong>Tumblr</strong> and <strong>DeviantArt</strong> themes. Then video games sparked an interest in <strong>game development</strong>, which evolved into building web and mobile applications.',
     'about.story2': 'I wasn\'t the best at drawing, but I could still create the <strong>worlds in my head</strong> through code — and that felt amazing. From the <strong>art community</strong> to the <strong>dev community</strong>.',
 
-    'about.section.hobbies':     '🌈 Interests & Hobbies',
+    'about.section.hobbies':     '🌈 Interests and Hobbies',
     'about.hobby.games':   '🎮 Tactical games',
     'about.hobby.voice':   '🎙️ Voice acting',
     'about.hobby.design':  '🎨 Graphic design',
     'about.hobby.cats':    '🐱 Cats',
-    'about.hobby.dnd':     '🐉 D&D',
-    'about.hobby.crafts':  '🧶 Arts & crafts',
+    'about.hobby.dnd':     '🐉 D and D',
+    'about.hobby.crafts':  '🧶 Arts and crafts',
     'about.hobby.reading': '📚 Reading',
     'about.hobby.makeup':  '💄 Makeup art',
     'about.hobby.coding':  '💻 Side projects',
     'about.hobby.esports': '🎯 Esports coaching',
 
     'about.section.inspiration': '✨ Creative Inspiration',
-    'about.inspiration': 'Fairytales · Myths &amp; Legends · Nature · Origami · Superheroes · Fairies · Avatar the Last Airbender',
+    'about.inspiration': 'Fairytales · Myths and Legends · Nature · Origami · Superheroes · Fairies · Avatar the Last Airbender',
 
     'about.section.connect':     '🌞 Let\'s Connect',
     'about.connect': 'If you\'ve made it this far — <strong>thank you</strong>. If our ideals align, let\'s create something amazing together — something that brings a <strong>little bit of sunshine</strong> into the world. ✨',
     'about.contact': 'Contact me ↗',
 
     'projects.euroinformations.desc': 'Development on in-house C modules to enhance workflow. New features in C# DevBooster for certain in-house applications.',
-
     'projects.portfolio26.desc': 'Webpage with updated content and design, built while learning Claude Code integration.',
     'projects.portfolio25.desc': 'An updated personal portfolio built using Jekyll and hosted on GitHub Pages.',
     'projects.tictactoe.desc':   'A mini desktop game built with Electron — two players, alternating turns on a single desktop.',
@@ -137,45 +139,48 @@ const translations = {
     'journey.education':  'Formation',
 
     'journey.efor.role':  'Consultante — Développeuse analyste',
-    'journey.efor.date':  'Août 2025 – Avr 2026 · France',
-    'journey.efor.desc':  'Consultante EFOR, pour leur client Euro Informations (Crédit Mutuel). Développeuse analyste sur les applications de santé à l\'EID.',
+    'journey.efor.date':  'Août 2025 – Avr 2026 · Strasbourg, France',
+    'journey.efor.desc':  'Développement et maintenance de modules C et applications web C# Devbooster pour des professionnels de santé. Activités QA incluant rédaction et exécution de cas de test.',
 
-    'journey.lbp.role':   'Développeuse app mobile',
-    'journey.lbp.date':   'Sep 2022 – Oct 2024 · Gradignan, France',
-    'journey.lbp.desc':   "Développement et maintenance d'une app bancaire mobile en React Native. Équipe agile, accessibilité, tests Detox et manuels.",
-    
+    'journey.lbp.role':   'Concept Developer',
+    'journey.lbp.date':   'Sep 2022 – Sep 2024 · Gradignan, France',
+    'journey.lbp.desc':   'Développement et maintenance de l\'application mobile La Banque Postale (TypeScript, React Native) pour plus de 10 millions de clients. Agile Scrum, normes d\'accessibilité RGAA.',
+
     'journey.sogeti.role': 'Testeuse agile',
     'journey.sogeti.date': 'Avr 2022 – Juin 2022 · Pessac, France',
-    'journey.sogeti.desc': 'Scripts de tests automatisés avec Selenium, Appium & TestNG. Suivi des défauts via Jira et Confluence.',
-    
+    'journey.sogeti.desc': 'Scripts de tests automatisés avec Selenium, Appium et TestNG. Plans et suites de tests. Jira et Confluence.',
+
     'journey.erasmus.role': 'Étudiante en échange — Erasmus+',
     'journey.erasmus.date': 'Fév 2021 – Juin 2021 · Horsens, Danemark',
     'journey.erasmus.desc': 'Programme d\'échange à l\'Université de Horsens avec des cours en anglais.',
 
-    'journey.master.sub':  'Master MIAGE — Informatique & Gestion',
+    'journey.master.sub':  'Master MIAGE — Informatique et Gestion',
     'journey.master.date': '2022 – 2024 · Université de Bordeaux',
-    'journey.master.desc': 'Architecture logicielle, IA, cybersécurité, gestion de projets agiles. Alternance à La Banque Postale.',
-    
+    'journey.master.desc': 'Formation pluridisciplinaire combinant informatique avancée et gestion d\'entreprise. Junior MIAGE Bordeaux et Association MIAGE Bordeaux.',
+
     'journey.bachelor.sub':  'Licence MIAGE',
     'journey.bachelor.date': '2021 – 2022 · Université de Bordeaux',
     'journey.bachelor.desc': 'Développement full-stack, bases de données, analyse métier. Stage chez Sogeti.',
-    
+
     'journey.dut.sub':  'DUT Informatique',
     'journey.dut.date': '2019 – 2021 · Université de Lorraine, Metz',
-    'journey.dut.desc': 'Fondamentaux informatiques, web & mobile, réseaux, semestre Erasmus+ au Danemark.',
-    
+    'journey.dut.desc': 'Fondamentaux du développement logiciel, systèmes, réseaux et bases de données. Programme Erasmus à l\'Université de Horsens, Danemark.',
+
     'journey.bac.sub':  'Baccalauréat Scientifique (S)',
     'journey.bac.date': '2013 – 2019 · Lycée Jean XXIII, Metz',
-    'journey.bac.desc': 'Spécialité scientifique option SVT.',
-    
-    'journey.nisc.sub':  'Primaire & Secondaire — IB PYP & MYP',
-    'journey.nisc.date': '2003 – 2013 · NISC, Phnom Penh, Cambodge',
-    'journey.nisc.desc': 'Programme Baccalauréat International. Clubs de sport et d\'arts.',
+    'journey.bac.desc': 'Baccalauréat scientifique avec option sciences de la vie et de la terre et spécialité mathématiques.',
 
-    'skills.title':    'Compétences',
-    'skills.tools':    'Outils & méthodes',
-    'skills.levels':   'Niveau par domaine',
-    'skills.aws':      'AWS (en cours)',
+    'journey.nisc.sub':  'Primaire et Secondaire — IB PYP et MYP',
+    'journey.nisc.date': '2003 – 2013 · NISC, Phnom Penh, Cambodge',
+    'journey.nisc.desc': 'Programme international IB PYP et MYP. Clubs sportifs et artistiques.',
+
+    'skills.title':     'Compétences',
+    'skills.frontend':  'Front-End',
+    'skills.backend':   'Back-End',
+    'skills.tools':     'Outils et méthodes',
+    'skills.databases': 'Bases de données',
+    'skills.ai':        'Développement assisté par IA',
+    'skills.levels':    'Niveau par domaine',
 
     'projects.title': 'Projets',
 
@@ -187,7 +192,7 @@ const translations = {
     'about.goals2': 'Je fais partie de la <strong>nouvelle génération</strong>, portée par la soif d\'apprendre. Extrêmement <strong>flexible</strong> et prête à <strong>m\'adapter</strong> — qui sait, je pourrais être votre <strong>nouvelle collègue préférée</strong> !',
 
     'about.section.values':      '🌟 Valeurs',
-    'about.value1': '<strong>Diversité &amp; inclusion</strong> — Passionnée par la visibilité des femmes et des femmes APAC dans la tech.',
+    'about.value1': '<strong>Diversité et inclusion</strong> — Passionnée par la visibilité des femmes et des femmes APAC dans la tech.',
     'about.value2': '<strong>Responsabilité</strong> — Aspire à être un modèle pour les groupes sous-représentés.',
     'about.value3': '<strong>Adaptabilité</strong> — Éducation multiculturelle, s\'épanouit dans des équipes diverses.',
     'about.value4': '<strong>Collaboration</strong> — Apprécie le travail transversal et les objectifs partagés.',
@@ -203,22 +208,21 @@ const translations = {
     'about.hobby.voice':   '🎙️ Doublage',
     'about.hobby.design':  '🎨 Design graphique',
     'about.hobby.cats':    '🐱 Chats',
-    'about.hobby.dnd':     '🐉 D&D',
-    'about.hobby.crafts':  '🧶 Arts & artisanat',
+    'about.hobby.dnd':     '🐉 D et D',
+    'about.hobby.crafts':  '🧶 Arts et artisanat',
     'about.hobby.reading': '📚 Lecture',
     'about.hobby.makeup':  '💄 Maquillage artistique',
     'about.hobby.coding':  '💻 Projets personnels',
     'about.hobby.esports': '🎯 Coaching esports',
 
     'about.section.inspiration': '✨ Sources d\'inspiration',
-    'about.inspiration': 'Contes de fées · Mythes &amp; Légendes · Nature · Origami · Super-héros · Fées · Avatar, le dernier maître de l\'air',
+    'about.inspiration': 'Contes de fées · Mythes et Légendes · Nature · Origami · Super-héros · Fées · Avatar, le dernier maître de l\'air',
 
     'about.section.connect':     '🌞 Connectons-nous',
     'about.connect': 'Si vous êtes arrivé jusqu\'ici — <strong>merci</strong>. Si nos idéaux s\'alignent, créons quelque chose d\'incroyable ensemble — quelque chose qui apporte un <strong>peu de soleil</strong> dans le monde. ✨',
     'about.contact': 'Me contacter ↗',
 
     'projects.euroinformations.desc': 'Développement de modules C internes pour améliorer les processus. Nouvelles fonctionnalités en C# dans DevBooster pour certaines applications internes.',
-
     'projects.portfolio26.desc': 'Page web avec contenu et design mis à jour, créée en apprenant l\'intégration de Claude Code.',
     'projects.portfolio25.desc': 'Portfolio personnel mis à jour, construit avec Jekyll et hébergé sur GitHub Pages.',
     'projects.tictactoe.desc':   'Mini jeu de bureau créé avec Electron — deux joueurs, tours alternés sur un seul ordinateur.',
